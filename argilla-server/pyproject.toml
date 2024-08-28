@@ -57,11 +57,12 @@ dependencies = [
     "typer >= 0.6.0, < 0.10.0", # spaCy only supports typer<0.10.0
     "packaging>=23.2",
     "psycopg2-binary>=2.9.9",
+    "typing-extensions>=4.12.2",
 ]
 
 [project.optional-dependencies]
 postgresql = [
-    "psycopg2 == 2.9.9",
+    #"psycopg2 == 2.9.9",
     # Async PostgreSQL
     "asyncpg == 0.29.0",
 ]
